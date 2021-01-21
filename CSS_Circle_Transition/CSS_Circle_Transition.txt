@@ -17,6 +17,12 @@
             margin: auto;
             position: absolute;
             border-top: 14px solid crimson;
+            animation: rotateC 2s infinite;
+        }
+        @keyframes rotateC {
+            from{
+                transform: rotate(-360deg);
+            }
         }
         section::before{
             content: "";
